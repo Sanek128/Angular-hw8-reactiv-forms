@@ -1,0 +1,10 @@
+<div *ngFor="let user of userList">
+    {{u?.id}}
+    {{u?.name}}
+    {{u?.username}}
+    <br>
+    <button (click)="getPosts(user.id)">Click to open posts this user</button>
+    <hr>
+</div>
+
+<router-outlet></router-outlet>

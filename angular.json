@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-hw8-reactiv-forms"
+    }
+  },
+  "defaultProject": "Angular-hw8-reactiv-forms",
+  "cli": {
+    "analytics": false
+  }
 }
